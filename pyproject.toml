@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leo-telemetry-gateway"
+version = "1.0.0"
+description = "LEO satellite ground-station telemetry frame reassembly gateway"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["app"]
